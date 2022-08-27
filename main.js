@@ -3,6 +3,7 @@ let sub = require("./sub");
 let mul = require("./mul");
 let div = require("./div");
 // Using require instead of Import Export
+// require will not work in react, import will work
 console.log(add(10, 15));
 console.log(sub(10, 15));
 console.log(mul(10, 15));
